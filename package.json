@@ -1,0 +1,24 @@
+{
+  "name": "curso-asincronismo",
+  "version": "1.0.0",
+  "description": "Trabajar con asincronismo",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+    "challenge": "node src/callback/challenge.js",
+    "promise": "node src/Promises/index.js",
+    "async": "node src/async/index.js"
+
+  },
+  "keywords": [
+    "callbacks",
+    "Async",
+    "Promises",
+    "awaits"
+  ],
+  "author": "Dimas Mendoza",
+  "license": "MIT",
+  "devDependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
